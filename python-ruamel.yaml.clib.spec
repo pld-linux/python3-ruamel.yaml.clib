@@ -7,7 +7,7 @@
 Summary:	C version of reader, parser and emitter for ruamel.yaml derived from libyaml
 Name:		python-%{module}
 Version:	0.2.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.yaml.clib/
@@ -25,7 +25,6 @@ BuildRequires:	python3-modules
 BuildRequires:	python3-setuptools
 %endif
 Requires:	python-modules
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
