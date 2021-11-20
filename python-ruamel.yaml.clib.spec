@@ -8,7 +8,7 @@ Summary:	C version of reader, parser and emitter for ruamel.yaml
 Summary(pl.UTF-8):	Wersja C biblioteki do odczytu, analizy i tworzenia YAML-a dla ruamel.yaml
 Name:		python-%{module}
 Version:	0.2.0
-Release:	5
+Release:	6
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.yaml.clib/
