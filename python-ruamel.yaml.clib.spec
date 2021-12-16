@@ -19,11 +19,11 @@ BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.7
-BuildRequires:	python-setuptools >= 28.7.0
+BuildRequires:	python-setuptools >= 1:28.7.0
 %endif
 %if %{with python3}
 BuildRequires:	python3-modules >= 1:3.5
-BuildRequires:	python3-setuptools >= 28.7.0
+BuildRequires:	python3-setuptools >= 1:28.7.0
 %endif
 Requires:	python-modules >= 1:2.7
 # for dir
