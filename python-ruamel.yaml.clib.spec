@@ -1,14 +1,14 @@
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module
 
 %define		module		ruamel.yaml.clib
 Summary:	C version of reader, parser and emitter for ruamel.yaml
 Summary(pl.UTF-8):	Wersja C biblioteki do odczytu, analizy i tworzenia YAML-a dla ruamel.yaml
 Name:		python-%{module}
 Version:	0.2.0
-Release:	7
+Release:	8
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.yaml.clib/
