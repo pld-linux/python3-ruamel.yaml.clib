@@ -6,14 +6,14 @@ Version:	0.2.12
 Release:	1
 License:	MIT
 Group:		Libraries/Python
-#Source0Download: https://pypi.org/simple/ruamel.yaml.clib/
+#Source0Download: https://pypi.org/simple/ruamel-yaml-clib/
 Source0:	https://files.pythonhosted.org/packages/source/r/ruamel.yaml.clib/%{module}-%{version}.tar.gz
 # Source0-md5:	53fa5737bbe5a07fac7db3d1a083fee9
 URL:		https://pypi.org/project/ruamel.yaml.clib/
-BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.714
 BuildRequires:	python3-modules >= 1:3.9
 BuildRequires:	python3-setuptools >= 1:28.7.0
+BuildRequires:	rpm-pythonprov
+BuildRequires:	rpmbuild(macros) >= 1.714
 Requires:	python3-modules >= 1:3.9
 # for dir
 Requires:	python3-ruamel.base
